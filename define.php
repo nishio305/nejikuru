@@ -1,5 +1,5 @@
 <?php
-/** HTMLディレクトリからの6DATAディレクトリの相対パス */
+/** HTMLディレクトリからの7DATAディレクトリの相対パス */
 define('HTML2DATA_DIR', '/data/');
 
 /** data/module 以下の PEAR ライブラリを優先的に使用する */
