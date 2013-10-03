@@ -1,0 +1,374 @@
+@charset "utf-8";
+
+#side{
+	clear:both;
+	float:left;
+	width:200px;
+	height:auto;
+}
+
+#side img{
+	border:0px;
+}
+
+/* カテゴリー */
+
+#side div.category{
+	width:200px;
+	height: auto;
+	color: #FFF;
+	background: #efefef;
+	margin: 0px 0px 10px 0;
+}
+
+#side div.category h3 {
+	font-size: 13px;
+	height: 30px;
+	line-height: 32px;
+	color: #FFFFFF;
+	text-indent: 11px;
+	font-weight: bold;
+	background-color: #1badcf;
+}
+
+#side div ul {
+	padding: 0 0 0 0px;
+	margin:0;
+	list-style-type:none;
+}
+
+#side div.category ul li {
+	height: 31px;
+	background:url(../img/icon/menu_right_bt.gif) no-repeat 11px center;
+	font-size: 11px;
+	line-height: 31px;
+	border-bottom: 1px solid #d4d4d4;
+	text-indent: 30px;
+}
+
+#side div.category ul li a {
+	text-decoration: none;
+	color: #0066cc;
+}
+
+#side div.category ul li a:hover {
+	text-decoration: underline;
+}
+
+
+/* 最近見た商品 */
+
+#side div#products_recently_viewed{
+	width:178px;
+	height:198px;
+	border:solid #dcdcdc 1px;
+	margin: 0px 0px 10px 0;
+	padding:10px 10px 8px 10px;
+}
+
+#side div#products_recently_viewed div.products_recently_viewed_title{
+	width:173px;
+	height:15px;
+	border-left:solid #1badcf 4px;
+	margin: 0px 0px 9px 0;
+	text-indent: 10px;
+	font-size: 13px;
+}
+
+#side div#products_recently_viewed div.products_recently_viewed_summary {
+	width:177px;
+	height:20px;
+	margin:0 0 10px 0;
+}
+
+#side div#products_recently_viewed div#products_recently_viewed_photo {
+	float:left;
+	width:31px;
+	height:20px;
+	margin:0 7px 0 0;
+}
+
+#side div#products_recently_viewed div#products_recently_viewed_moji {
+	float:left;
+	width:139px;
+	height:20px;
+	font-size:12px;
+}
+
+#side div#products_recently_viewed div.products_recently_viewed_summary02 {
+	width:177px;
+	height:20px;
+	padding:0 0 10px 0;
+	border-bottom:dotted #dcdcdc 1px;
+}
+
+
+
+#side div#products_recently_viewed div.look_new_viewed{
+	width:178px;
+	height:23px;
+	font-size:12px;
+}
+
+#side div#products_recently_viewed div.look_new_viewed ul {
+	padding: 0 0 0 0px;
+	margin:0;
+	list-style-type:none;
+	height:24px;
+}
+
+#side div#products_recently_viewed div.look_new_viewed ul li {
+	background:url(../img/icon/menu_right_bt.gif) no-repeat left 6px;
+	font-size: 12px;
+	line-height: 25px;
+	text-indent: 17px;
+	font-family: inherit;
+}
+
+#side div#products_recently_viewed div.look_new_viewed ul li a {
+	text-decoration: underline;
+	color: #0066cc;
+}
+
+#side div#products_recently_viewed div.look_new_viewed ul li a:hover {
+	text-decoration: none;
+}
+
+
+/* タグ検索 */
+
+#side div#tag{
+	width:178px;
+	height:auto;
+	border:solid #dcdcdc 1px;
+	margin: 0px 0px 10px 0;
+	padding:10px;
+}
+
+#side div#tag div.products_recently_viewed_title{
+	width:173px;
+	height:15px;
+	border-left:solid #1badcf 4px;
+	margin: 0px 0px 9px 0;
+	text-indent: 10px;
+	font-size: 13px;
+	line-height:15px;
+}
+
+#side div#tag div#tag_search_cont {
+	width:177px;
+	height:132px;
+	font-size:11px;
+	line-height:18px;
+}
+
+
+#side div#tag div.look_new_viewed{
+	width:178px;
+	height:23px;
+	font-size:12px;
+}
+
+#side div#tag div.look_new_viewed ul {
+	padding: 0 0 0 0px;
+	margin:0;
+	list-style-type:none;
+	height:24px;
+}
+
+#side div#tag div.look_new_viewed ul li {
+	background:url(../img/icon/menu_right_bt.gif) no-repeat left 6px;
+	font-size: 12px;
+	line-height: 25px;
+	text-indent: 17px;
+	font-family: inherit;
+}
+
+#side div#tag div.look_new_viewed ul li a {
+	text-decoration: underline;
+	color: #0066cc;
+}
+
+#side div#tag div.look_new_viewed ul li a:hover {
+	text-decoration: none;
+}
+
+/* タグランキング */
+
+#side div#added_modified_products {
+	width:200px;
+	height:50px;
+	margin: 0px 0px 10px 0;
+	background:url(../img/button/tag_ranking.jpg) no-repeat;
+}
+
+#side div#added_modified_products a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+/* 追加・更新商品一覧 */
+
+#side div#newproducts {
+	width:200px;
+	height:50px;
+	margin: 0px 0px 10px 0;
+	background:url(../img/button/add_and_update_listings.jpg) no-repeat;
+}
+
+#side div#newproducts a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+/* 各種バナー */
+
+#side div#banner01 {
+	width:200px;
+	height:50px;
+	margin: 0px 0px 10px 0;
+	background:url(../img/button/project01_200.jpg) no-repeat;
+}
+
+#side div#banner01 a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+#side div#banner02 {
+	width:200px;
+	height:50px;
+	margin: 0px 0px 10px 0;
+	background:url(../img/button/project02_200.jpg) no-repeat;
+}
+
+#side div#banner02 a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+#side div#banner03 {
+	width:200px;
+	height:50px;
+	margin: 0;
+	background:url(../img/button/project03_200.jpg) no-repeat;
+}
+
+#side div#banner03 a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+/* 商品カテゴリ大分類 */
+
+
+#side div.category ul li#category01_title {
+	height: 31px;
+	background:url(../image/menu_right_bt.gif) no-repeat 11px center #d4d4d4;
+	font-size: 11px;
+	line-height: 31px;
+	text-indent: 30px;
+	color:#000;
+	font-weight:bold;
+}
+
+#side div.category ul div#category01_cont{
+	width:200px;
+	height:auto;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+#side div.category ul div#category01_cont ul {
+	padding: 0 0 0 0px;
+	margin: 0 0 0 0px;
+	list-style-type: none;
+	
+}
+
+#side div.category ul div#category01_cont ul li {
+	background:url(../img/icon/arrow.gif) no-repeat 25px center;
+	font-size: 11px;
+	line-height: 23px;
+	text-indent: 31px;
+	margin:0px 0 0 0;
+	height: 23px;
+	border:0px;
+}
+
+#side div.category ul div#category01_cont ul li a {
+	text-decoration: underline;
+	color: #0066cc;
+}
+
+#side div.category ul div#category01_cont ul li a:hover {
+	text-decoration: none;
+}
+
+
+/* 商品カテゴリ中分類 */
+
+#side div.category ul div#category01_cont ul li#sub_category01_title {
+	background:url(../img/icon/arrow.gif) no-repeat 25px center #d4d4d4;
+	font-size: 11px;
+	line-height: 23px;
+	text-indent: 31px;
+	margin:0;
+	height: 23px;
+	letter-spacing:-2px;
+	border:0px;
+	color:#000;
+	font-weight:bold;
+}
+
+
+/* 商品カテゴリ小分類 */
+
+#side div.category ul div#category01_cont ul div#sub_category01_cont{
+	width:200px;
+	height:auto;
+}
+
+#side div.category ul div#category01_cont ul div#sub_category01_cont ul {
+	padding: 0 0 0 0px;
+	margin: 0 0 0 0px;
+	list-style-type: none;
+	
+}
+
+#side div.category ul div#category01_cont ul div#sub_category01_cont ul li {
+	background:url(../img/icon/arrow.gif) no-repeat 34px center;
+	font-size: 11px;
+	line-height: 22px;
+	text-indent: 42px;
+	margin:0px 0 0 0;
+	height: 22px;
+	letter-spacing:0px;
+	border:0px;
+}
+
+#side div.category ul div#category01_cont ul div#sub_category01_cont ul li#small_category01_title {
+	background:url(../img/icon/arrow.gif) no-repeat 34px center #d4d4d4;
+	font-size: 11px;
+	line-height: 22px;
+	text-indent: 42px;
+	margin:0px 0 0 0;
+	height: 22px;
+	letter-spacing:0px;
+	border:0px;
+	color:#000;
+	font-weight:bold;
+}
+
+#side div.category ul div#category01_cont ul div#sub_category01_cont ul li a {
+	text-decoration: underline;
+	color: #0066cc;
+}
+
+#side div.category ul div#category01_cont ul div#sub_category01_cont ul li a:hover {
+	text-decoration: none;
+}

@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+body
+{
+	background: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+	font-family: Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS P Gothic", Verdana, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kakugo Pro W3", Osaka, sans-serif;
+}
+
+h1 {
+	margin:15px 0 0 3px;
+	text-align: left;
+	font-size: 11px;
+	font-weight: normal;
+	color:#999999;
+	font-family: inherit;
+  	vertical-align: baseline;
+	letter-spacing:-2px;
+}
+
+h2 {
+	margin: 0px;
+}
+
+h3 {
+	font-size:100%;
+	font-weight:nomal;
+	margin:0;
+}
+
+h4 {
+	font-size:100%;
+	font-weight:nomal;
+	margin:0;
+}
+
+#txt_11 {
+	font-size:11px;
+}
+
+.txt_16 {
+	font-size:16px;
+}
+
+.font_size18{
+	font-size:18px;
+}
+
+
+#padding1 {
+	float:left;
+	width:210px;
+	height:1px;
+	margin:0 0 19px 0;
+}
+
+#padding2 {
+	float:left;
+	width:210px;
+	height:1px;
+	margin:0 0 13px 0;
+}
+
+#padding3 {
+	float:left;
+	width:200px;
+	height:1px;
+	margin:0 0 19px 0;
+}
+
+#padding5 {
+	padding:5px 5px 5px 0;
+}
+
+.color_red{
+	color:#F00;
+}
+
+.color_orange {
+	color:#ff6600;
+}
+
+.color_pink {
+	color:#ff3366
+}
+
+.font-bold{
+	font-weight:bold;
+}
+
+section, article, aside, nav, header, footer, hgroup {
+  display: block;
+}
+
+.clear { 
+	clear: both;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 1220px;
+}
+
+#marign {
+	width:960px;
+	height:29px;
+	margin:29px 0 0 0;
+}
+
+#margin-left {
+	float:left;
+	margin:0 0 0 80px;	
+}

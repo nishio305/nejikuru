@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+#shopinfo {
+	width: 926px;
+	height: 254px;
+	clear: both;
+	border:solid #a3e1f1 2px;
+	padding:15px;
+}
+
+#shopinfo img{
+	border:0px;
+}
+
+#shopinfo div.shopinfo_description {
+	float:left;
+	width:495px;
+	height:255px;
+}
+
+#shopinfo div.shopinfo_description div#shopinfo_description_content01 {
+	font-size:11px;
+	letter-spacing:-1px;
+	height:74px;
+	line-height:2.0;
+}
+
+#shopinfo div.shopinfo_description div#shopinfo_description_content02 {
+	width:495px;
+	height:169px;
+	background:url(../img/background/shopinfo_description.jpg) no-repeat;
+}
+
+#shopinfo div.shopinfo_description div#shopinfo_description_content03 {
+	height:15px;
+}
+
+#shopinfo div.shopinfo_description div#shopinfo_description_content03 ul {
+	padding: 0 0 0 0px;
+	margin: 0 0 0 0px;
+	list-style-type: none;
+	height: 0px;
+}
+
+#shopinfo div.shopinfo_description div#shopinfo_description_content03 ul li {
+	background:url(../img/icon/arrow.gif) no-repeat left center;
+	font-size: 11px;
+	line-height: 10px;
+	text-indent: 8px;
+	font-family: inherit;
+}
+
+#shopinfo div.shopinfo_description div#shopinfo_description_content03 ul li a {
+	text-decoration: underline;
+	color: #0066cc;
+}
+
+#shopinfo div.shopinfo_description div#shopinfo_description_content03 ul li a:hover {
+	text-decoration: none;
+}
+
+
+#shopinfo div.tel_bt_calendar {
+	float:right;
+	width:400px;
+	height:255px;
+}
+
+
+#shopinfo div.tel_bt_calendar div#shopinfo_tel {
+	width:100%;
+	height:58px;
+	background:url(../img/background/shopinfo_tel.jpg) no-repeat;
+}
+
+#shopinfo div.tel_bt_calendar div#shopinfo_menu {
+	width:100%;
+	height:26px;
+	margin:0 0 20px 0;
+}
+
+
+#shopinfo div.tel_bt_calendar div#shopinfo_menu ul {
+  display: inline;
+  list-style:none;
+}
+
+/* line 109, ../sass/top.scss */
+#shopinfo div.tel_bt_calendar div#shopinfo_menu li {
+  float: left;
+  vertical-align: top;
+  margin:0 5px 0 0;
+  width:90px;
+  height:26px;
+}
+
+/* line 116, ../sass/top.scss */
+#shopinfo div.tel_bt_calendar div#shopinfo_menu li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+/* line 128, ../sass/top.scss */
+#shopinfo div.tel_bt_calendar div#shopinfo_menu li img {
+  vertical-align: top;
+}
+
+
+#shopinfo div.tel_bt_calendar div#shopinfo_calendar {
+	width:100%;
+	height:151px;
+}
